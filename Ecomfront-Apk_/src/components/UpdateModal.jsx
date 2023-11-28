@@ -18,10 +18,10 @@ const UpdateModal = ({
     position: "absolute",
     width: 500,
     boxShadow: 14,
-    backgroundColor: "grey", // Background color set to black
-    color: "white", // Text color set to white
+    backgroundColor: "grey", 
+    color: "white", 
     padding: 4,
-    textAlign: "center", // Center the content
+    textAlign: "center", 
   };
 
   // Initialize state directly from the selectedProduct prop
