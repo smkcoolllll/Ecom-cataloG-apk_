@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #3271ee;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-item {
+    cursor: pointer;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    background-color: #3271ee;
+  }
+
+ 
+  
+  .navbar-icon {
+    width: 35px; /* Adjust the width as needed */
+    height: 35px; /* Adjust the height as needed */
+    margin-left: 20px; /* Adjust the margin to create space between the icon and text */
+  }
+  
